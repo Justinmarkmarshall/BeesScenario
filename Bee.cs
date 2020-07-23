@@ -28,19 +28,6 @@ namespace Bees.Core
         #region Public Methods
 
         public abstract void Inflict_Damage(int iDamage);
-        //{
-        //    //if (bDead == false)
-        //    //{
-        //    //    var oldHealth = this.db_Health;
-
-        //    //    var newHealth = oldHealth - Convert.ToDouble(iDamage);
-
-        //    //    if (newHealth < 70)
-        //    //    {
-        //    //        this.bDead = true;
-        //    //    }
-        //    //}           
-        //}
 
         public void UpdateHealth(double dValue)
         {
